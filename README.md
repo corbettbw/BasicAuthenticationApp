@@ -1,6 +1,13 @@
 # README
 
-## More on this later, using it to keep notes right now
+## Tech Stack and Relevant Gems
+* Ruby version: 3.0.0  
+* Rails: 7  
+* Devise  
+* Sqlite3  
 
-  [changelog] https://github.com/heartcombo/devise/blob/main/CHANGELOG.md
-  [upgrade guide] https://github.com/heartcombo/devise/wiki/How-To:-Upgrade-to-Devise-4.9.0-%5BHotwire-Turbo-integration%5D
+## Considerations
+[Devise](https://github.com/heartcombo/devise?tab=readme-ov-file#configuring-routes) doesn't let you use :delete with links, so you gotta switch the `link_to` to `button_to`.
+
+
+
